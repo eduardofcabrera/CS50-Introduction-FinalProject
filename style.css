@@ -1,0 +1,90 @@
+/* CSS Document */
+.buttonNormal
+{
+	border-color: black;
+	border-radius: 8px;
+}
+* {
+  box-sizing: border-box;
+}
+.box {
+  position: absolute;
+  left: 705px;
+  float: left;
+  width: 272px;
+  padding: 20px;
+  height: 355px;
+}
+
+.box2 {
+  position: absolute;
+  left: 453px;
+  float: left;
+  width: 272px;
+  padding: 20px;
+  height: 355px;
+}
+
+.bigbox {
+  float: left;
+  position: absolute;
+  top: 180px;
+  width: 565px;
+  padding: 20px;
+  height: 355px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.displayDiv {
+  position: absolute;
+  left: 476px;
+  top: 136px;
+}
+
+.display {
+  position: absolute;
+  width: 475px;
+  height: 74px;
+  font-size: 300%;
+  border-radius: 8px;
+  border-color: black;
+  background-color: rgb(250, 250, 250);
+  font-family: Lato;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@font-face{
+  font-family: "Lato";
+  src: url("Lato/Lato-Regular.ttf");
+}
+.divSuperior{
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+}
+
+.divInferior {
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 96%;
+  background-color: black;
+}
+
+.pSuperior {
+  text-align: center;
+  font-family: Lato;
+  color: black;
+}
+
+.pInferior {
+  text-align: center;
+  font-family: Lato;
+  color: white;
+}
